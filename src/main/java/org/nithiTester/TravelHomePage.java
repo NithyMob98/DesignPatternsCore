@@ -38,7 +38,7 @@ public class TravelHomePage {
 
     }
     public void setBookingStatergy(String str){
-        System.out.println(str);
+        System.out.println("Lastest code da");
         StatergyFactory stf = new StatergyFactory(driver);
         searchFlightAvail=stf.createStatergy(str);
 
