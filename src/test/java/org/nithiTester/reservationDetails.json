@@ -1,0 +1,25 @@
+[{
+  "origin":"MAA",
+  "destination":"JAI",
+
+  "origin1":"MAA",
+  "destination1":"JAI",
+  "origin2":"MAA",
+  "destination2":"JAI",
+  "origin3":"MAA",
+  "destination3":"JAI"
+},
+  {
+    "origin":"HYD",
+    "destination":"JAI",
+    "origin1":"HYD",
+    "destination1":"JAI",
+    "origin2":"HYD",
+    "destination2":"JAI",
+    "origin3":"HYD",
+    "destination3":"JAI"
+
+
+  }
+
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-02T13:28:57 IST" name="Surefire suite" finished-at="2022-03-02T13:29:30 IST" duration-ms="32175">
+    <groups>
+    </groups>
+    <test started-at="2022-03-02T13:28:57 IST" name="Surefire test" finished-at="2022-03-02T13:29:30 IST" duration-ms="32175">
+      <class name="org.nithiTester.DemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.nithiTester.DemoTest@4c39bec8]" started-at="2022-03-02T13:28:57 IST" name="setUp" finished-at="2022-03-02T13:29:01 IST" duration-ms="3526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="flightTEst(java.util.HashMap)[pri:0, instance:org.nithiTester.DemoTest@4c39bec8]" started-at="2022-03-02T13:29:01 IST" name="flightTEst" data-provider="getData" finished-at="2022-03-02T13:29:16 IST" duration-ms="14767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination1=JAI, destination2=JAI, origin=MAA, destination3=JAI, destination=JAI, origin2=MAA, origin3=MAA, origin1=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTEst -->
+        <test-method signature="flightTEst(java.util.HashMap)[pri:0, instance:org.nithiTester.DemoTest@4c39bec8]" started-at="2022-03-02T13:29:16 IST" name="flightTEst" data-provider="getData" finished-at="2022-03-02T13:29:29 IST" duration-ms="12762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination1=JAI, destination2=JAI, origin=HYD, destination3=JAI, destination=JAI, origin2=HYD, origin3=HYD, origin1=HYD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTEst -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.nithiTester.DemoTest@4c39bec8]" started-at="2022-03-02T13:29:29 IST" name="tearDown" finished-at="2022-03-02T13:29:30 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.nithiTester.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
