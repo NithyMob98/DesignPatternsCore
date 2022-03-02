@@ -41,6 +41,7 @@ public class DemoTest extends BaseTest{
 
         homePage.setBookingStatergy("multitrip");
         homePage.checkAvailibility(reservationDetails);
+        System.out.println("multi done da");
 
         homePage.setBookingStatergy("roundtrip");
         homePage.checkAvailibility(reservationDetails);
